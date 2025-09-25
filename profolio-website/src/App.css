@@ -20,3 +20,22 @@ h2 {
   border-bottom: 2px solid #333;
   padding-bottom: 5px;
 }
+.tech-stack-icons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin: 15px 0;
+}
+
+.tech-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 12px;
+}
+
+.tech-icon {
+  width: 40px;
+  height: 40px;
+  margin-bottom: 5px;
+}
